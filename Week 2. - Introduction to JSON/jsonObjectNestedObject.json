@@ -1,0 +1,12 @@
+{
+    "instructor":{
+        "name":"Jane Doe",
+        "subjects":["SIA2","WebTech","DSA"],
+        "address":{
+            "street": "123 Street",
+            "baragay": "123 Brgy",
+            "municapality": "Bulan",
+            "province": "Sorsogon"
+        }
+    }
+}

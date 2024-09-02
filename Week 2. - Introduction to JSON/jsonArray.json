@@ -1,0 +1,14 @@
+{
+    "lessons":[
+        {
+            "title":"introduction to JSON",
+            "length": "1 week",
+            "summary": ["JSON Basics", "JSON Data types"]
+        },
+        {
+            "title":"JSON Validation and Schema",
+            "length": "2 weeks",
+            "summary": ["Create Schema", "Validate JSON Data"]
+        }
+    ]
+}

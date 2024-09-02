@@ -1,0 +1,9 @@
+{
+    "address":{
+        "house_number": null,
+        "street": "123 Street",
+        "baragay": "123 Brgy",
+        "municapality": "Bulan",
+        "province": "Sorsogon"
+    }
+}
