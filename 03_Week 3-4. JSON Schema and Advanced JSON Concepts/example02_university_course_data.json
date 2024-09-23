@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "type": "object",
+  "properties": {
+    "courseName": {
+      "type": "string"
+    },
+    "instructor": {
+      "type": "string"
+    },
+    "credits": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 10
+    },
+    "semester": {
+      "type": "string"
+    },
+    "modules": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      },
+      "uniqueItems": true,
+      "minItems": 1
+    },
+    "assignments": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "title": { "type": "string" },
+          "dueDate": { "type": "string", "format": "date" }
+        },
+        "required": ["title", "dueDate"]
+      }
+    }
+  },
+  "required": ["courseName", "instructor", "credits", "semester", "modules", "assignments"]
+}
