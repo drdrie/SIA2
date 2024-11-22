@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE library SYSTEM "books.dtd">
+<library>
+    <book id="b001">
+        <year>YEAR</year>
+        <title>Example Title</title>
+        <author>Example Author</author>
+    </book>
+
+</library>

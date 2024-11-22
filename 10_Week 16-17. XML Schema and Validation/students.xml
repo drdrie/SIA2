@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<students xmlns="http://www.example.com/student"
+    xmlns:xsf="http://www.w3.org/2001/XMLSchema-instance"
+    xsf:schemaLocation="http://www.example.com/student student.xsd">
+    <student studentId="b001">
+        <name>John Doe</name>
+        <age>20</age>
+        <grade>A</grade>
+    </student>
+    <student studentId="b001">
+        <name>John Doe</name>
+        <age>20</age>
+        <grade>Z</grade>
+    </student>
+    <student studentId="b001">
+        <name>John Doe</name>
+        <age>20</age>
+        <grade>A</grade>
+    </student>
+</students>

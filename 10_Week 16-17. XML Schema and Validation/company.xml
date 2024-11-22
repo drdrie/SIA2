@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Company xmlns="http://www.example.com/company"
+    xmlns:xsf="http://www.w3.org/2001/XMLSchema-instance"
+    xsf:schemaLocation="http://www.example.com/company company.xsd">
+    <Name>TechCorp</Name>
+    <Departments>
+        <Department>
+            <Name>HR</Name>
+            <Employees>
+                <Employee>
+                    <Name>Mary</Name>
+                    <Position>Manager</Position>
+                </Employee>
+                <Employee>
+                    <Name>John</Name>
+                    <Position>Assistant</Position>
+                </Employee>
+            </Employees>
+        </Department>
+        <Department>
+            <Name>IT</Name>
+            <Employees>
+                <Employee>
+                    <Name>Alice</Name>
+                    <Position>Developer</Position>
+                </Employee>
+                <Employee>
+                    <Name>Bob</Name>
+                    <Position>Engineer</Position>
+                </Employee>
+            </Employees>
+        </Department>
+    </Departments>
+</Company>

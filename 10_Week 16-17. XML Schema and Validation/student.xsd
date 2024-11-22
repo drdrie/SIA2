@@ -1,0 +1,33 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    targetNamespace="http://www.example.com/student"
+    elementFormDefault="qualified"><!--This
+    ensures that all elements within the XSD are namespace-qualified, which aligns with the XML
+    document.-->
+    <xs:element name="students">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="student" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="name" type="xs:string" />
+                            <xs:element name="age" type="xs:integer" />
+                            <xs:element name="grade">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="A" />
+                                        <xs:enumeration value="B" />
+                                        <xs:enumeration value="C" />
+                                        <xs:enumeration value="D" />
+                                        <xs:enumeration value="F" />
+                                        <xs:enumeration value="Z" />
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                        </xs:sequence>
+                        <xs:attribute name="studentId" type="xs:string" use="required" />
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+</xs:schema>
